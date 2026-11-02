@@ -1,0 +1,15 @@
+name: strascrous_data
+description: Données partagées pour les applications Strascrous.
+version: 0.1.0
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.0
+
+flutter:
+  assets:
+    - assets/icons/cities/
