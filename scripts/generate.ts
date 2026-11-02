@@ -36,6 +36,7 @@ export function parseYaml(data: Array<Academy>): Array<City> {
         }
     }
 
+    // TODO: tri alphabétique
     return cities;
 }
 

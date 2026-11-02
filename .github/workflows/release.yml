@@ -1,0 +1,85 @@
+name: Distribuer les libs
+
+on:
+    release:
+        types: [published]
+
+permissions:
+    contents: write
+
+concurrency:
+    group: distribute-libraries
+    cancel-in-progress: false
+
+jobs:
+    distribute:
+        if: ${{ !github.event.release.prerelease }}
+        runs-on: ubuntu-latest
+        timeout-minutes: 20
+
+        steps:
+            - name: Checkout release sources
+              uses: actions/checkout@v4
+              with:
+                  ref: ${{ github.event.release.tag_name }}
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "24"
+                  cache: npm
+                  cache-dependency-path: |
+                      package-lock.json
+                      templates/ts/package-lock.json
+
+            - name: Set up Flutter
+              uses: subosito/flutter-action@v2
+              with:
+                  channel: stable
+                  cache: true
+
+            - name: Install generator dependencies
+              run: npm ci
+
+            - name: Check generator
+              run: npm run check
+
+            - name: Generate libraries
+              run: npm run generate
+
+            - name: Build TypeScript library
+              working-directory: dist/ts
+              run: |
+                  npm ci
+                  npm run build
+
+            - name: Check Flutter library
+              working-directory: dist/dart
+              run: |
+                  flutter pub get
+                  flutter analyze
+
+            - name: Prepare distribution directories
+              run: |
+                  rm -rf dist/ts/node_modules
+                  rm -rf dist/dart/.dart_tool dist/dart/build
+                  rm -f dist/dart/pubspec.lock
+                  printf 'node_modules/\n*.tsbuildinfo\n' > dist/ts/.gitignore
+
+            - name: Distribute TypeScript library
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                  branch: generated/ts
+                  folder: dist/ts
+                  clean: true
+                  force: false
+                  commit-message: "chore(ts): generate library from ${{ github.event.release.tag_name }}"
+
+            - name: Distribute Flutter library
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                  branch: generated/dart
+                  folder: dist/dart
+                  clean: true
+                  force: false
+                  commit-message: "chore(dart): generate library from ${{ github.event.release.tag_name }}"
