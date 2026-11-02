@@ -1,0 +1,15 @@
+{
+  "name": "strascrous-data-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.ts",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ajv": "^8.20.0",
+    "typescript": "~5.9.3",
+    "yaml": "^2.9.1"
+  }
+}

@@ -1,0 +1,110 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Villes par académie",
+    "description": "Académies, villes, icônes et filtres de correspondance avec les données CROUS.",
+    "type": "array",
+    "minItems": 1,
+    "items": {
+        "$ref": "#/$defs/academy"
+    },
+    "$defs": {
+        "nonEmptyString": {
+            "type": "string",
+            "minLength": 1
+        },
+        "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)*$"
+        },
+        "stringList": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+                "$ref": "#/$defs/nonEmptyString"
+            }
+        },
+        "academy": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "name", "cities"],
+            "properties": {
+                "id": {
+                    "$ref": "#/$defs/id"
+                },
+                "name": {
+                    "$ref": "#/$defs/nonEmptyString"
+                },
+                "cities": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "$ref": "#/$defs/city"
+                    }
+                }
+            }
+        },
+        "city": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "name", "icon", "areas"],
+            "properties": {
+                "id": {
+                    "$ref": "#/$defs/id"
+                },
+                "name": {
+                    "$ref": "#/$defs/nonEmptyString"
+                },
+                "icon": {
+                    "$ref": "#/$defs/icon"
+                },
+                "areas": {
+                    "$ref": "#/$defs/stringList"
+                },
+                "exactCity": {
+                    "description": "Valeur exacte de la ville dans les données CROUS.",
+                    "$ref": "#/$defs/nonEmptyString"
+                },
+                "exactCities": {
+                    "description": "Valeurs exactes des villes dans les données CROUS.",
+                    "$ref": "#/$defs/stringList"
+                }
+            },
+            "not": {
+                "required": ["exactCity", "exactCities"]
+            }
+        },
+        "icon": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source", "name"],
+            "properties": {
+                "source": {
+                    "enum": ["mdi", "material"]
+                },
+                "name": {
+                    "$ref": "#/$defs/nonEmptyString"
+                }
+            },
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "source": { "const": "mdi" }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "name": { "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" }
+                        }
+                    },
+                    "else": {
+                        "properties": {
+                            "name": { "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

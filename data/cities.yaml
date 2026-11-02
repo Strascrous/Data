@@ -1,0 +1,687 @@
+# yaml-language-server: $schema=../schema/cities.schema.json
+# source: mdi = Material Design Icons ; source: material = Flutter Icons.
+
+- id: strasbourg
+  name: Académie de Strasbourg
+  cities:
+      - id: strasbourg
+        name: Strasbourg
+        icon: { source: mdi, name: pretzel } # Le Bretzel miam l'Alsace
+        areas: [Strasbourg]
+      - id: mulhouse
+        name: Mulhouse
+        icon: { source: mdi, name: factory } # Cœur industriel à une époque
+        areas: [Mulhouse]
+      - id: colmar
+        name: Colmar
+        icon: { source: mdi, name: fruit-grapes-outline } # La route des vins
+        areas: [Colmar]
+
+- id: nancy.metz
+  name: Académie de Nancy-Metz
+  cities:
+      - id: nancy
+        name: Nancy
+        icon: { source: material, name: local_florist } # Le chardon est l'emblème de Nancy
+        areas: [Nancy, Vandœuvre-lès-Nancy, Villers-lès-Nancy]
+      - id: metz
+        name: Metz
+        icon: { source: mdi, name: snake } # Graoully
+        areas: [Metz]
+      - id: epinal
+        name: Épinal
+        icon: { source: mdi, name: image-frame } # Imagerie d'Épinal
+        areas: [Épinal]
+      - id: longwy
+        name: Longwy
+        icon: { source: material, name: castle } # Vauban
+        areas: [Longwy]
+      - id: yutz
+        name: Yutz
+        icon: { source: material, name: waves } # Moselle
+        areas: [Yutz]
+
+- id: bfc
+  name: Bourgogne-Franche-Comté
+  cities:
+      - id: belfort
+        name: Belfort
+        icon: { source: material, name: pets } # Lion de Belfort
+        areas: [Belfort, Sévenans]
+      - id: besancon
+        name: Besançon
+        icon: { source: material, name: watch } # Capitale française de l'horlogerie
+        areas: [Besançon]
+      - id: dijon
+        name: Dijon
+        icon: { source: mdi, name: owl } # Chouette de l'église Notre-Dame
+        areas: [Dijon]
+      - id: le.creusot
+        name: Le Creusot
+        icon: { source: mdi, name: hammer } # Marteau-pilon de 100 tonnes, emblème de la ville
+        areas: [Le Creusot]
+      - id: montbeliard
+        name: Montbéliard
+        icon: { source: material, name: directions_car } # Peugeot (Sochaux à côté)
+        areas: [Montbéliard]
+
+- id: rennes
+  name: Académie de Rennes
+  cities:
+      - id: rennes
+        name: Rennes
+        icon: { source: material, name: account_balance } # Parlement de Bretagne
+        areas: [Rennes Centre, Rennes est-Beaulieu, Rennes ouest-Villejean, Bruz]
+      - id: brest
+        name: Brest
+        icon: { source: material, name: anchor } # Port militaire
+        areas: [Brest]
+      - id: lannion
+        name: Lannion
+        icon: { source: material, name: satellite_alt } # Radôme de Pleumeur-Bodou (première liaison satellite transatlantique)
+        areas: [Lannion]
+      - id: lorient
+        name: Lorient
+        icon: { source: material, name: sailing } # Course au large
+        areas: [Lorient]
+      - id: quimper
+        name: Quimper
+        icon: { source: mdi, name: bowl } # Faïence de Quimper
+        areas: [Quimper]
+      - id: saint.brieuc
+        name: Saint-Brieuc
+        icon: { source: mdi, name: fish } # Pêche
+        areas: [Saint Brieuc]
+      - id: saint.malo
+        name: Saint-Malo
+        icon: { source: mdi, name: pirate } # Cité corsaire (Surcouf, Duguay-Trouin)
+        areas: [Saint Malo]
+      - id: vannes
+        name: Vannes
+        icon: { source: mdi, name: island } # Porte du golfe du Morbihan
+        areas: [Vannes]
+
+- id: amiens
+  name: Académie d'Amiens
+  cities:
+      - id: amiens
+        name: Amiens
+        icon: { source: material, name: church } # Cathédrale Notre-Dame
+        areas: [AMIENS CAMPUS, AMIENS CENTRE]
+      - id: beauvais
+        name: Beauvais
+        icon: { source: material, name: flight } # Aéroport
+        areas: [BEAUVAIS]
+      - id: compiegne
+        name: Compiègne
+        icon: { source: material, name: forest } # Forêt de Compiègne
+        areas: [COMPIEGNE]
+      - id: creil
+        name: Creil
+        icon: { source: material, name: train } # Gros nœud ferroviaire
+        areas: [CREIL]
+      - id: laon
+        name: Laon
+        icon: { source: mdi, name: cow } # Statues de bœufs sur les tours de la cathédrale
+        areas: [AISNE]
+        exactCity: Laon
+      - id: saint.quentin
+        name: Saint-Quentin
+        icon: { source: material, name: palette } # Musée Antoine Lécuyer
+        areas: [AISNE]
+        exactCity: Saint-Quentin
+      - id: soissons
+        name: Soissons
+        icon: { source: mdi, name: crown } # Clovis
+        areas: [AISNE]
+        exactCity: Cuffies
+
+- id: aix.marseille
+  name: Académie d'Aix-Marseille
+  cities:
+      - id: marseille
+        name: Marseille
+        icon: { source: material, name: directions_boat } # Vieux-Port
+        areas: [Marseille]
+      - id: aix
+        name: Aix-en-Provence
+        icon: { source: material, name: water_drop } # Ville aux mille fontaines
+        areas: [Aix]
+      - id: arles
+        name: Arles
+        icon: { source: material, name: stadium } # Arènes romaines
+        areas: [Arles]
+      - id: aubagne
+        name: Aubagne
+        icon: { source: material, name: military_tech } # Siège de la Légion étrangère
+        areas: [Aubagne]
+      - id: avignon
+        name: Avignon
+        icon: { source: mdi, name: bridge } # Pont d'Avignon
+        areas: [Avignon]
+      - id: digne
+        name: Digne-les-Bains
+        icon: { source: material, name: spa } # Station thermale
+        areas: [Digne]
+      - id: gap
+        name: Gap
+        icon: { source: material, name: terrain } # Préfecture la plus haute de France (en pleine montagne)
+        areas: [Gap]
+      - id: la.ciotat
+        name: La Ciotat
+        icon: { source: material, name: movie } # Les frères Lumière
+        areas: [La Ciotat]
+      - id: tallard
+        name: Tallard
+        icon: { source: material, name: castle } # Château Renaissance
+        areas: [Tallard]
+
+- id: antilles.guyane
+  name: Antilles-Guyane
+  cities:
+      - id: pointe.pitre
+        name: Pointe-à-Pitre
+        icon: { source: material, name: museum } # Mémorial ACTe
+        areas: [Guadeloupe]
+        exactCity: Fouillole
+      - id: saint.claude
+        name: Saint-Claude
+        icon: { source: mdi, name: volcano } # La Soufrière
+        areas: [Guadeloupe]
+        exactCity: Camp Jacob
+      - id: cayenne
+        name: Cayenne
+        icon: { source: mdi, name: chili-mild } # Piment de Cayenne
+        areas: [Guyane]
+        exactCity: Cayenne
+      - id: kourou
+        name: Kourou
+        icon: { source: material, name: rocket_launch } # Centre spatial guyanais
+        areas: [Guyane]
+        exactCity: Kourou
+      - id: schoelcher
+        name: Schœlcher
+        icon: { source: material, name: school } # Campus de Schœlcher
+        areas: [Martinique]
+        exactCity: Schoelcher
+
+- id: bordeaux
+  name: Académie de Bordeaux
+  cities:
+      - id: bordeaux
+        name: Bordeaux
+        icon: { source: material, name: wine_bar } # Le vin bordelais
+        areas: [Bordeaux, Talence, Pessac, Gradignan]
+      - id: bayonne
+        name: Bayonne
+        icon: { source: material, name: sports_rugby } # Aviron Bayonnais
+        areas: [Côte basque]
+        exactCities: [Bayonne, Anglet]
+      - id: perigueux
+        name: Périgueux
+        icon: { source: material, name: church } # Cathédrale Saint-Front
+        areas: [Dordogne]
+        exactCity: Perigueux
+      - id: sarlet.caneda
+        name: Sarlat-la-Canéda
+        icon: { source: material, name: restaurant } # Capitale du Périgord noir (foie gras, noix, truffes)
+        areas: [Dordogne]
+        exactCity: Sarlat la Canéda
+      - id: dax
+        name: Dax
+        icon: { source: material, name: hot_tub } # Première ville thermale de France
+        areas: [Landes]
+        exactCity: Dax
+      - id: libourne
+        name: Libourne
+        icon: { source: material, name: liquor } # Saint-Émilion, Pomerol (vignoble du Libournais)
+        areas: [Libourne]
+      - id: agen
+        name: Agen
+        icon: { source: material, name: sports_rugby } # SU Agen
+        areas: [Lot et Garonne]
+        exactCities: [Agen, Boé]
+      - id: marmande
+        name: Marmande
+        icon: { source: material, name: agriculture } # Tomate de Marmande
+        areas: [Lot et Garonne]
+        exactCity: Marmande
+      - id: villeneuve.lot
+        name: Villeneuve-sur-Lot
+        icon: { source: mdi, name: bridge } # Pont des Cieutat
+        areas: [Lot et Garonne]
+        exactCity: Villeneuve sur Lot
+      - id: mont.marsan
+        name: Mont-de-Marsan
+        icon: { source: material, name: celebration } # Fêtes de la Madeleine / festival Arte Flamenca
+        areas: [Mont de Marsan]
+      - id: pau
+        name: Pau
+        icon: { source: material, name: sports_motorsports } # GP de Pau
+        areas: [Pau]
+
+- id: clermont.ferrand
+  name: Académie de Clermont-Ferrand
+  cities:
+      - id: clermont.ferrand
+        name: Clermont-Ferrand
+        icon: { source: material, name: tire_repair } # Michelin
+        areas: [RDO - Centre-Ville, RCZ - Cezeaux]
+      - id: montlucon
+        name: Montluçon
+        icon: { source: material, name: factory } # Ville industrielle (Dunlop)
+        areas: [RMO - Montlucon]
+      - id: aurillac
+        name: Aurillac
+        icon: { source: material, name: umbrella } # Capitale du parapluie
+        areas: [RAU - Aurillac]
+
+- id: corte
+  name: Corte
+  cities:
+      - id: corte
+        name: Corte
+        icon: { source: material, name: flag } # Corse
+        areas: [Campus Grimaldi, Campus Mariani]
+
+- id: creteil
+  name: Académie de Créteil
+  cities:
+      - id: bobigny
+        name: Bobigny
+        icon: { source: material, name: gavel } # Procès de Bobigny
+        areas: [Bobigny]
+      - id: cachan
+        name: Cachan
+        icon: { source: material, name: psychology } # ENS Paris-Saclay
+        areas: [Cachan]
+      - id: creteil
+        name: Créteil
+        icon: { source: material, name: water } # Lac de Créteil
+        areas: [Créteil]
+      - id: fontainebleau
+        name: Fontainebleau
+        icon: { source: material, name: hiking } # Forêt
+        areas: [Sud Seine-et-Marne]
+        exactCity: Fontainebleau
+      - id: kremlin.bicetre
+        name: Le Kremlin-Bicêtre
+        icon: { source: material, name: local_hospital } # Hôpital de Bicêtre
+        areas: [Seine et Bièvre]
+        exactCity: Le Kremlin-Bicêtre
+      - id: lieusaint
+        name: Lieusaint
+        icon: { source: material, name: local_mall } # Carré Sénart
+        areas: [Sénart]
+        exactCity: Lieusaint
+      - id: marne.la.vallee
+        name: Marne-la-Vallée
+        icon: { source: material, name: attractions } # Disneyland Paris
+        areas: [Champs-sur-Marne, Marne-la-Vallée]
+      - id: melun
+        name: Melun
+        icon: { source: material, name: water_drop } # La Seine
+        areas: [Sud Seine-et-Marne]
+        exactCity: Melun
+      - id: montreuil
+        name: Montreuil
+        icon: { source: material, name: videocam } # Studios Méliès (premier studio de cinéma en France)
+        areas: [Montreuil]
+      - id: saint.denis
+        name: Saint-Denis
+        icon: { source: material, name: church } # Nécropole des rois
+        areas: [Saint-Denis]
+      - id: villejuif
+        name: Villejuif
+        icon: { source: material, name: biotech } # Gustave Roussy
+        areas: [Seine et Bièvre]
+        exactCity: Villejuif
+      - id: villetaneuse
+        name: Villetaneuse
+        icon: { source: material, name: menu_book } # Université Sorbonne Paris Nord
+        areas: [Villetaneuse]
+
+- id: grenoble
+  name: Académie de Grenoble
+  cities:
+      - id: grenoble
+        name: Grenoble
+        icon: { source: material, name: downhill_skiing } # Capitale des Alpes
+        areas: [Grenoble, Grenoble centre, Grenoble presqu'île, Saint-Martin-d'Heres]
+      - id: valence
+        name: Valence
+        icon: { source: material, name: waves } # Le Rhône
+        areas: [Valence]
+      - id: chambery
+        name: Chambéry
+        icon: { source: material, name: castle } # Château des ducs de Savoie
+        areas: ["Chambery, Campus Jacob-Bellecombette", Bourget-du-lac]
+      - id: annecy
+        name: Annecy
+        icon: { source: material, name: animation } # Festival du film d'animation
+        areas: [Annecy]
+      - id: bourgoin.jallieu
+        name: Bourgoin-Jallieu
+        icon: { source: material, name: checkroom } # Passé textile
+        areas: [Nord Isère]
+      - id: thonon.les.bains
+        name: Thonon-les-Bains
+        icon: { source: material, name: pool } # Lac Léman
+        areas: [Chablais]
+      - id: annonay
+        name: Annonay
+        icon: { source: material, name: paragliding } # Montgolfière
+        areas: [Ardèche]
+        exactCity: Annonay
+      - id: aubenas
+        name: Aubenas
+        icon: { source: material, name: kayaking } # Canoë
+        areas: [Ardèche]
+        exactCity: Aubenas
+      - id: privas
+        name: Privas
+        icon: { source: material, name: eco } # Châtaigne
+        areas: [Ardèche]
+        exactCity: Privas
+
+- id: lille
+  name: Académie de Lille
+  cities:
+      - id: lille
+        name: Lille
+        icon: { source: material, name: storefront } # Braderie de Lille
+        areas:
+            - Lille (Centre)
+            - Lille (CHR)
+            - Lille (Moulins)
+            - Lille (Ronchin)
+            - Villeneuve d'Ascq (Cité scientifique)
+            - Villeneuve d'Ascq (Pont de bois)
+      - id: valenciennes
+        name: Valenciennes
+        icon: { source: material, name: brush } # Athènes du Nord
+        areas: [Valenciennes (Centre), Valenciennes (Domaine Universitaire)]
+      - id: arras
+        name: Arras
+        icon: { source: material, name: history_edu } # Robespierre
+        areas: [Arras]
+      - id: bethune
+        name: Béthune
+        icon: { source: material, name: volunteer_activism } # Charitables de Saint-Éloi
+        areas: [Béthune]
+      - id: boulogne.mer
+        name: Boulogne-sur-Mer
+        icon: { source: material, name: phishing } # Premier port de pêche de France
+        areas: [Boulogne sur Mer]
+      - id: calais
+        name: Calais
+        icon: { source: material, name: directions_ferry } # Ville de passage pour la Grande-Bretagne (tunnel sous la Manche et ferries)
+        areas: [Calais]
+      - id: cambrai
+        name: Cambrai
+        icon: { source: material, name: cookie } # Bêtises de Cambrai
+        areas: [Cambrai]
+      - id: douai
+        name: Douai
+        icon: { source: material, name: emoji_people } # Gayant
+        areas: [Douai]
+      - id: dunkerque
+        name: Dunkerque
+        icon: { source: material, name: masks } # Carnaval
+        areas: [Dunkerque]
+      - id: lens
+        name: Lens
+        icon: { source: mdi, name: pickaxe } # Bassin minier
+        areas: [Lens]
+      - id: saint.omer
+        name: Saint-Omer
+        icon: { source: material, name: water } # Marais audomarois
+        areas: [Longuenesse]
+      - id: roubaix
+        name: Roubaix
+        icon: { source: material, name: pedal_bike } # Paris-Roubaix
+        areas: [Roubaix]
+      - id: tourcoing
+        name: Tourcoing
+        icon: { source: material, name: checkroom } # Capitale textile
+        areas: [Tourcoing]
+
+- id: limoges
+  name: Académie de Limoges
+  cities:
+      - id: limoges
+        name: Limoges
+        icon: { source: material, name: coffee } # Porcelaine
+        areas: [Limoges (87)]
+      - id: brive
+        name: Brive-la-Gaillarde
+        icon: { source: material, name: auto_stories } # Foire du livre
+        areas: [Brive (19)]
+        exactCity: André DEVAUD
+      - id: egletons
+        name: Égletons
+        icon: { source: material, name: construction } # Formations BTP
+        areas: [Egletons (19)]
+      - id: gueret
+        name: Guéret
+        icon: { source: material, name: grass } # Creuse
+        areas: [Brive (19)]
+        exactCity: Guéret
+      - id: tulle
+        name: Tulle
+        icon: { source: material, name: music_note } # Accordéon
+        areas: [Brive (19)]
+        exactCity: Tulle
+      - id: ussel
+        name: Ussel
+        icon: { source: material, name: park } # Haute-Corrèze
+        areas: [Brive (19)]
+        exactCity: Ussel
+
+- id: lyon
+  name: Académie de Lyon
+  cities:
+      - id: lyon
+        name: Lyon
+        icon: { source: material, name: restaurant } # Tacos
+        areas:
+            - Lyon 2ème
+            - Les Quais - Berges du Rhône
+            - ENS-Gerland
+            - La Doua-Villeurbanne
+            - IUT Gratte Ciel Villeurbanne
+            - Porte des Alpes
+            - Ecole Centrale
+            - ENTPE
+      - id: saint.etienne
+        name: Saint-Étienne
+        icon: { source: material, name: design_services } # Ville UNESCO du design
+        areas: [Saint-Etienne]
+      - id: roanne
+        name: Roanne
+        icon: { source: material, name: dinner_dining } # Maison Troisgros
+        areas: [Roanne]
+
+- id: montpellier
+  name: Académie de Montpellier
+  cities:
+      - id: montpellier
+        name: Montpellier
+        icon: { source: material, name: medical_services } # Plus ancienne faculté de médecine
+        areas: [Montpellier]
+      - id: beziers
+        name: Béziers
+        icon: { source: material, name: celebration } # Féria
+        areas: [Béziers]
+      - id: narbonne
+        name: Narbonne
+        icon: { source: material, name: hive } # Miel de Narbonne
+        areas: [Narbonne]
+      - id: nimes
+        name: Nîmes
+        icon: { source: material, name: account_balance } # Monuments romains
+        areas: [Nîmes]
+      - id: perpignan
+        name: Perpignan
+        icon: { source: material, name: wb_sunny } # Soleil catalan
+        areas: [Perpignan]
+
+- id: nantes
+  name: Académie de Nantes
+  cities:
+      - id: angers
+        name: Angers
+        icon: { source: material, name: liquor } # Cointreau
+        areas: [Angers]
+      - id: chateaubriant
+        name: Châteaubriant
+        icon: { source: material, name: castle } # Le château
+        areas: [Châteaubriant]
+      - id: cholet
+        name: Cholet
+        icon: { source: material, name: sports_basketball } # Cholet Basket
+        areas: [Cholet]
+      - id: la.fleche
+        name: La Flèche
+        icon: { source: material, name: military_tech } # Prytanée national militaire
+        areas: [La Flèche]
+      - id: la.roche.sur.yon
+        name: La Roche-sur-Yon
+        icon: { source: material, name: pentagon } # Plan pentagonal
+        areas: [La Roche-sur-Yon]
+      - id: laval
+        name: Laval
+        icon: { source: material, name: view_in_ar } # Laval Virtual
+        areas: [Laval]
+      - id: le.mans
+        name: Le Mans
+        icon: { source: material, name: speed } # 24 Heures du Mans
+        areas: [Le Mans]
+      - id: mayenne
+        name: Mayenne
+        icon: { source: material, name: water } # Mayenne (rivière)
+        areas: [Mayenne]
+      - id: nantes
+        name: Nantes
+        icon: { source: material, name: precision_manufacturing } # Machines de l'île
+        areas: [Nantes]
+      - id: saint-nazaire
+        name: Saint-Nazaire
+        icon: { source: material, name: directions_boat_filled } # Chantiers navals
+        areas: [Saint-Nazaire]
+      - id: saumur
+        name: Saumur
+        icon: { source: mdi, name: horse } # Cadre noir
+        areas: [Saumur]
+
+- id: nice
+  name: Académie de Nice
+  cities:
+      - id: nice
+        name: Nice
+        icon: { source: material, name: beach_access } # Promenade des Anglais
+        areas: [Nice]
+      - id: sophia.antipolis
+        name: Sophia-Antipolis
+        icon: { source: material, name: memory } # Technopole
+        areas: [Sophia-Antipolis]
+      - id: cannes
+        name: Cannes
+        icon: { source: material, name: emoji_events } # Festival de Cannes
+        areas: [Cannes]
+      - id: menton
+        name: Menton
+        icon: { source: mdi, name: fruit-citrus } # Fête du Citron
+        areas: [Menton]
+      - id: toulon
+        name: Toulon
+        icon: { source: material, name: anchor } # Base navale
+        areas: [Var]
+        exactCities: [Toulon, La Garde]
+      - id: draguignan
+        name: Draguignan
+        icon: { source: material, name: landscape } # Gorges du Verdon
+        areas: [Var]
+        exactCity: Draguignan
+
+- id: normandie
+  name: Normandie
+  cities:
+      - id: rouen
+        name: Rouen
+        icon: { source: material, name: schedule } # Gros-Horloge
+        areas: [Rouen, Mont Saint Aignan, Saint Etienne du Rouvray]
+      - id: le.havre
+        name: Le Havre
+        icon: { source: material, name: inventory_2 } # Conteneurs
+        areas: [Le Havre]
+      - id: evreux
+        name: Évreux
+        icon: { source: material, name: alarm } # Tour de l'Horloge
+        areas: [Evreux]
+      - id: flers
+        name: Flers
+        icon: { source: material, name: nature } # Bocage normand
+        areas: [Flers]
+
+- id: orleans.tours
+  name: Académie d'Orléans-Tours
+  cities:
+      - id: orleans
+        name: Orléans
+        icon: { source: material, name: shield } # Jeanne d'Arc
+        areas: [Orléans]
+      - id: tours
+        name: Tours
+        icon: { source: material, name: fort } # Châteaux de la Loire
+        areas: [Tours]
+      - id: blois
+        name: Blois
+        icon: { source: material, name: auto_fix_high } # Maison de la Magie Robert-Houdin
+        areas: [Blois]
+      - id: bourges
+        name: Bourges
+        icon: { source: material, name: festival } # Printemps de Bourges
+        areas: [Bourges]
+      - id: chartres
+        name: Chartres
+        icon: { source: material, name: church } # Cathédrale
+        areas: [Chartres]
+      - id: chateauroux
+        name: Châteauroux
+        icon: { source: material, name: flight } # Ancien site Dassault
+        areas: [Châteauroux et Issoudun]
+        exactCity: Châteauroux
+      - id: issoudun
+        name: Issoudun
+        icon: { source: material, name: history_edu } # Balzac
+        areas: [Châteauroux et Issoudun]
+        exactCity: Issoudun
+
+- id: paris
+  name: Académie de Paris
+  cities:
+      - id: paris
+        name: Paris
+        icon: { source: mdi, name: eiffel-tower } # Tour Eiffel
+        areas:
+            - Paris 1
+            - Paris 2
+            - Paris 3
+            - Paris 4
+            - Paris 5
+            - Paris 6
+            - Paris 7
+            - Paris 8
+            - Paris 9
+            - Paris 10
+            - Paris 11
+            - Paris 12
+            - Paris 13
+            - Paris 14
+            - Paris 15
+            - Paris 16
+            - Paris 17
+            - Paris 18
+            - Paris 19
+            - Paris 20
