@@ -47,6 +47,11 @@ jobs:
             - name: Generate libraries
               run: npm run generate
 
+            - name: Set generated package versions
+              env:
+                  RELEASE_TAG: ${{ github.event.release.tag_name }}
+              run: npm run generate:version -- "$RELEASE_TAG"
+
             - name: Build TypeScript library
               working-directory: dist/ts
               run: |

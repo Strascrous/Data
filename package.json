@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "generate": "node scripts/generate.ts",
+    "generate:version": "node scripts/version.ts",
     "check": "tsc --noEmit"
   },
   "devDependencies": {
