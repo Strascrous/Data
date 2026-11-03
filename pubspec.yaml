@@ -1,6 +1,6 @@
 name: strascrous_data
 description: Données partagées pour les applications Strascrous.
-version: 0.9.1
+version: 1.0.0
 
 environment:
   sdk: ^3.0.0
