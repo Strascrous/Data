@@ -142,7 +142,9 @@ async function generateThirdPartyNotices(copiedMDI: Set<string>, dist: string) {
         ""
     ]
 
-    for (const mdi of copiedMDI) {
+    const sortedMDI = Array.from(copiedMDI)
+        .sort();
+    for (const mdi of sortedMDI) {
         lines.push(`- [${mdi}.svg](assets/icons/cities/${mdi}.svg) (original: ${mdi})`)
     }
     lines.push("", "See [pictogrammers-LICENSE.txt](assets/licenses/pictogrammers-LICENSE.txt) for the complete license text.")
