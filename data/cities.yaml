@@ -327,8 +327,8 @@
         name: Montreuil
         icon: { source: material, name: videocam } # Studios Méliès (premier studio de cinéma en France)
         areas: [Montreuil]
-      - id: saint.denis
-        name: Saint-Denis
+      - id: saint.denis.creteil
+        name: Saint-Denis (Créteil)
         icon: { source: material, name: church } # Nécropole des rois
         areas: [Saint-Denis]
       - id: villejuif
@@ -685,3 +685,176 @@
             - Paris 18
             - Paris 19
             - Paris 20
+
+- id: poitiers
+  name: Académie de Poitiers
+  cities:
+      - id: poitiers
+        name: Poitiers
+        icon: { source: material, name: theaters } # Futuroscope
+        areas:
+            - Poitiers Campus
+            - Poitiers Centre Ville
+            - Futuroscope
+      - id: angouleme
+        name: Angoulême
+        icon: { source: material, name: chat_bubble } # Capitale de la BD
+        areas: [Angoulême]
+      - id: chatellerault
+        name: Châtellerault
+        icon: { source: material, name: two_wheeler } # musée Auto Moto Vélo
+        areas: [Châtellerault]
+      - id: la.rochelle
+        name: La Rochelle
+        icon: { source: material, name: mic } # Francofolies
+        areas: [La Rochelle]
+
+- id: reims
+  name: Académie de Reims
+  cities:
+      - id: reims
+        name: Reims
+        icon: { source: mdi, name: glass-flute } # Champagne
+        areas:
+            - REIMS - Campus Lettres
+            - REIMS - Campus Sciences
+            - REIMS - Centre
+      - id: troyes
+        name: Troyes
+        icon: { source: material, name: shopping_bag } # Magasins d'Usine
+        areas: [TROYES - Campus, TROYES - Centre]
+      - id: chalons.en.champagne
+        name: Châlons-en-Champagne
+        icon: { source: material, name: engineering } # ENSAM (Arts & Métiers)
+        areas: [CHALONS - ENSAM]
+      - id: charleville.mezieres
+        name: Charleville-Mézières
+        icon: { source: material, name: edit_note } # Rimbaud
+        areas: [CHARLEVILLE - Centre, CHARLEVILLE - P.H.T.]
+
+- id: reunion
+  name: Académie de La Réunion
+  cities:
+      - id: saint.denis.reunion
+        name: Saint-Denis (Réunion)
+        icon: { source: material, name: sports_tennis } # Roland Garros né
+        areas: [Site nord]
+        exactCities: [Saint-Denis, Sainte-Clotilde]
+      - id: le.tampon
+        name: Le Tampon
+        icon: { source: material, name: filter_vintage } # Ville fleurie
+        areas: [Site sud]
+        exactCity: Tampon
+      - id: saint.pierre
+        name: Saint-Pierre
+        icon: { source: mdi, name: palm-tree } # front de mer
+        areas: [Site sud]
+        exactCities: [Saint Pierre, Saint-Pierre, UFR santé]
+      - id: dembeni
+        name: Dembéni
+        icon: { source: mdi, name: turtle } # tortures marine (Mayotte)
+        areas: [Site Dembeni (Mayotte)]
+
+- id: toulouse
+  name: Académie de Toulouse
+  cities:
+      - id: toulouse
+        name: Toulouse
+        icon: { source: material, name: airplanemode_active } # Aviation
+        areas: [Toulouse, Toulouse Crous Truck']
+      - id: albi
+        name: Albi
+        icon: { source: material, name: church } # cathédrale Sainte-Cécile
+        areas: [Albi]
+      - id: auch
+        name: Auch
+        icon: { source: mdi, name: sword-cross } # D'Artagnan
+        areas: [Auch]
+      - id: castres
+        name: Castres
+        icon: { source: material, name: medication } # Pierre Fabre
+        areas: [Castres]
+      - id: figeac
+        name: Figeac
+        icon: { source: material, name: translate } # Champollion
+        areas: [Figeac]
+      - id: rodez
+        name: Rodez
+        icon: { source: material, name: contrast } # Pierre Soulages
+        areas: [Rodez]
+      - id: tarbes
+        name: Tarbes
+        icon: { source: material, name: filter_hdr } # Pyrénées
+        areas: [Tarbes]
+
+- id: versailles
+  name: Académie de Versailles
+  cities:
+      - id: bretigny.sur.orge
+        name: Brétigny-sur-Orge
+        icon: { source: material, name: radar } # base aérienne 217
+        areas: [Essonne]
+        exactCity: Brétigny-sur-Orge
+
+      - id: cergy.pontoise
+        name: Cergy-Pontoise
+        icon: { source: material, name: apartment } # ville nouvelle
+        areas: [Val d'Oise]
+        exactCities: [Cergy-Pontoise, Cergy Pontoise, Pontoise]
+      - id: evry
+        name: Évry
+        icon: { source: mdi, name: dna } # Genopole
+        areas: [Essonne]
+        exactCities: [Evry, Évry, Evry-Courcouronnes]
+      - id: gennevilliers
+        name: Gennevilliers
+        icon: { source: material, name: local_shipping } # Port fluvial
+        areas: [Val d'Oise]
+        exactCity: Gennevilliers
+
+      - id: guyancourt
+        name: Guyancourt
+        icon: { source: material, name: electric_car } # Technocentre Renault
+        areas: [Yvelines]
+        exactCity: Guyancourt
+      - id: nanterre
+        name: Nanterre
+        icon: { source: material, name: campaign } # Mai 68, mouvement du 22 mars
+        areas: [Hauts-de-Seine]
+        exactCity: Nanterre
+      - id: paris.saclay
+        name: Paris-Saclay
+        icon: { source: mdi, name: atom } # CEA Saclay
+        areas: [Essonne, Yvelines]
+        exactCities: [Orsay, Bures-sur-Yvette, Gif-sur-Yvette, Palaiseau]
+
+      - id: saint.cloud
+        name: Saint-Cloud
+        icon: { source: material, name: park } # Parc de Saint-Cloud
+        areas: [Hauts-de-Seine]
+        exactCity: Saint-Cloud
+      - id: saint.germain.en.laye
+        name: Saint-Germain-en-Laye
+        icon: { source: material, name: piano } # Claude Debussy
+        areas: [Val d'Oise]
+        exactCity: Saint-Germain-en-Laye
+      - id: sceaux
+        name: Sceaux
+        icon: { source: mdi, name: fountain } # Parc de Sceaux
+        areas: [Hauts-de-Seine]
+        exactCity: Sceaux
+      - id: velizy.villacoublay
+        name: Vélizy-Villacoublay
+        icon: { source: material, name: shopping_cart } # Vélizy 2
+        areas: [Yvelines]
+        exactCities: [Velizy-Villacoublay, Vélizy-Villacoublay]
+      - id: versailles
+        name: Versailles
+        icon: { source: mdi, name: mirror-variant } # Galerie des Glaces
+        areas: [Yvelines]
+        exactCity: Versailles
+      - id: ville.davray
+        name: Ville d'Avray
+        icon: { source: material, name: palette } # Corot
+        areas: [Hauts-de-Seine]
+        exactCity: Ville d'Avray
