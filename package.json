@@ -1,6 +1,6 @@
 {
   "name": "@strascrous/data",
-  "version": "0.9.1",
+  "version": "1.0.0",
   "description": "Données partagées pour les applications Strascrous.",
   "license": "MIT",
   "type": "module",
