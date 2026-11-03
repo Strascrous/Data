@@ -36,8 +36,8 @@ export function parseYaml(data: Array<Academy>): Array<City> {
         }
     }
 
-    // TODO: tri alphabétique
-    return cities;
+    return cities
+        .sort((a, b) => a.name.localeCompare(b.name))
 }
 
 async function main(): Promise<void> {
