@@ -47,7 +47,7 @@
         "city": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["id", "name", "icon", "areas"],
+            "required": ["id", "name", "icon", "location", "areas"],
             "properties": {
                 "id": {
                     "$ref": "#/$defs/id"
@@ -57,6 +57,9 @@
                 },
                 "icon": {
                     "$ref": "#/$defs/icon"
+                },
+                "location": {
+                    "$ref": "#/$defs/location"
                 },
                 "areas": {
                     "$ref": "#/$defs/stringList"
@@ -72,6 +75,23 @@
             },
             "not": {
                 "required": ["exactCity", "exactCities"]
+            }
+        },
+        "location": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["lat", "lon"],
+            "properties": {
+                "lat": {
+                    "type": "number",
+                    "minimum": -90,
+                    "maximum": 90
+                },
+                "lon": {
+                    "type": "number",
+                    "minimum": -180,
+                    "maximum": 180
+                }
             }
         },
         "icon": {

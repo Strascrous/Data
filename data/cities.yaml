@@ -7,14 +7,17 @@
       - id: strasbourg
         name: Strasbourg
         icon: { source: mdi, name: pretzel } # Le Bretzel miam l'Alsace
+        location: { lon: 7.752, lat: 48.5734 }
         areas: [Strasbourg]
       - id: mulhouse
         name: Mulhouse
         icon: { source: mdi, name: factory } # Cœur industriel à une époque
+        location: { lon: 7.336, lat: 47.7505 }
         areas: [Mulhouse]
       - id: colmar
         name: Colmar
         icon: { source: mdi, name: fruit-grapes-outline } # La route des vins
+        location: { lon: 7.3583, lat: 48.0793 }
         areas: [Colmar]
 
 - id: nancy.metz
@@ -23,22 +26,27 @@
       - id: nancy
         name: Nancy
         icon: { source: material, name: local_florist } # Le chardon est l'emblème de Nancy
+        location: { lon: 6.1837, lat: 48.6929 }
         areas: [Nancy, Vandœuvre-lès-Nancy, Villers-lès-Nancy]
       - id: metz
         name: Metz
         icon: { source: mdi, name: snake } # Graoully
+        location: { lon: 6.1764, lat: 49.1196 }
         areas: [Metz]
       - id: epinal
         name: Épinal
         icon: { source: mdi, name: image-frame } # Imagerie d'Épinal
+        location: { lon: 6.4502, lat: 48.1754 }
         areas: [Épinal]
       - id: longwy
         name: Longwy
         icon: { source: material, name: castle } # Vauban
+        location: { lon: 5.7686, lat: 49.5145 }
         areas: [Longwy]
       - id: yutz
         name: Yutz
         icon: { source: material, name: waves } # Moselle
+        location: { lon: 6.1922, lat: 49.3616 }
         areas: [Yutz]
 
 - id: bfc
@@ -47,22 +55,27 @@
       - id: belfort
         name: Belfort
         icon: { source: material, name: pets } # Lion de Belfort
+        location: { lon: 6.8629, lat: 47.6377 }
         areas: [Belfort, Sévenans]
       - id: besancon
         name: Besançon
         icon: { source: material, name: watch } # Capitale française de l'horlogerie
+        location: { lon: 6.0239, lat: 47.2377 }
         areas: [Besançon]
       - id: dijon
         name: Dijon
         icon: { source: mdi, name: owl } # Chouette de l'église Notre-Dame
+        location: { lon: 5.0416, lat: 47.3218 }
         areas: [Dijon]
       - id: le.creusot
         name: Le Creusot
         icon: { source: mdi, name: hammer } # Marteau-pilon de 100 tonnes, emblème de la ville
+        location: { lon: 4.4283, lat: 46.8054 }
         areas: [Le Creusot]
       - id: montbeliard
         name: Montbéliard
         icon: { source: material, name: directions_car } # Peugeot (Sochaux à côté)
+        location: { lon: 6.7983, lat: 47.5102 }
         areas: [Montbéliard]
 
 - id: rennes
@@ -71,34 +84,42 @@
       - id: rennes
         name: Rennes
         icon: { source: material, name: account_balance } # Parlement de Bretagne
+        location: { lon: -1.6801, lat: 48.1114 }
         areas: [Rennes Centre, Rennes est-Beaulieu, Rennes ouest-Villejean, Bruz]
       - id: brest
         name: Brest
         icon: { source: material, name: anchor } # Port militaire
+        location: { lon: -4.485, lat: 48.3913 }
         areas: [Brest]
       - id: lannion
         name: Lannion
         icon: { source: material, name: satellite_alt } # Radôme de Pleumeur-Bodou (première liaison satellite transatlantique)
+        location: { lon: -3.4593, lat: 48.7321 }
         areas: [Lannion]
       - id: lorient
         name: Lorient
         icon: { source: material, name: sailing } # Course au large
+        location: { lon: -3.366, lat: 47.7482 }
         areas: [Lorient]
       - id: quimper
         name: Quimper
         icon: { source: mdi, name: bowl } # Faïence de Quimper
+        location: { lon: -4.1019, lat: 47.9965 }
         areas: [Quimper]
       - id: saint.brieuc
         name: Saint-Brieuc
         icon: { source: mdi, name: fish } # Pêche
+        location: { lon: -2.7641, lat: 48.5137 }
         areas: [Saint Brieuc]
       - id: saint.malo
         name: Saint-Malo
         icon: { source: mdi, name: pirate } # Cité corsaire (Surcouf, Duguay-Trouin)
+        location: { lon: -2.0228, lat: 48.6515 }
         areas: [Saint Malo]
       - id: vannes
         name: Vannes
         icon: { source: mdi, name: island } # Porte du golfe du Morbihan
+        location: { lon: -2.7609, lat: 47.6584 }
         areas: [Vannes]
 
 - id: amiens
@@ -107,32 +128,39 @@
       - id: amiens
         name: Amiens
         icon: { source: material, name: church } # Cathédrale Notre-Dame
+        location: { lon: 2.2957, lat: 49.8941 }
         areas: [AMIENS CAMPUS, AMIENS CENTRE]
       - id: beauvais
         name: Beauvais
         icon: { source: material, name: flight } # Aéroport
+        location: { lon: 2.0818, lat: 49.4296 }
         areas: [BEAUVAIS]
       - id: compiegne
         name: Compiègne
         icon: { source: material, name: forest } # Forêt de Compiègne
+        location: { lon: 2.8263, lat: 49.418 }
         areas: [COMPIEGNE]
       - id: creil
         name: Creil
         icon: { source: material, name: train } # Gros nœud ferroviaire
+        location: { lon: 2.4728, lat: 49.2606 }
         areas: [CREIL]
       - id: laon
         name: Laon
         icon: { source: mdi, name: cow } # Statues de bœufs sur les tours de la cathédrale
+        location: { lon: 3.6206, lat: 49.5651 }
         areas: [AISNE]
         exactCity: Laon
       - id: saint.quentin
         name: Saint-Quentin
         icon: { source: material, name: palette } # Musée Antoine Lécuyer
+        location: { lon: 3.2871, lat: 49.847 }
         areas: [AISNE]
         exactCity: Saint-Quentin
       - id: soissons
         name: Soissons
         icon: { source: mdi, name: crown } # Clovis
+        location: { lon: 3.3285, lat: 49.3837 }
         areas: [AISNE]
         exactCity: Cuffies
 
@@ -142,38 +170,47 @@
       - id: marseille
         name: Marseille
         icon: { source: material, name: directions_boat } # Vieux-Port
+        location: { lon: 5.3698, lat: 43.2965 }
         areas: [Marseille]
       - id: aix
         name: Aix-en-Provence
         icon: { source: material, name: water_drop } # Ville aux mille fontaines
+        location: { lon: 5.4474, lat: 43.5298 }
         areas: [Aix]
       - id: arles
         name: Arles
         icon: { source: material, name: stadium } # Arènes romaines
+        location: { lon: 4.6274, lat: 43.6768 }
         areas: [Arles]
       - id: aubagne
         name: Aubagne
         icon: { source: material, name: military_tech } # Siège de la Légion étrangère
+        location: { lon: 5.5695, lat: 43.2924 }
         areas: [Aubagne]
       - id: avignon
         name: Avignon
         icon: { source: mdi, name: bridge } # Pont d'Avignon
+        location: { lon: 4.8053, lat: 43.9493 }
         areas: [Avignon]
       - id: digne
         name: Digne-les-Bains
         icon: { source: material, name: spa } # Station thermale
+        location: { lon: 6.2353, lat: 44.0935 }
         areas: [Digne]
       - id: gap
         name: Gap
         icon: { source: material, name: terrain } # Préfecture la plus haute de France (en pleine montagne)
+        location: { lon: 6.0798, lat: 44.5587 }
         areas: [Gap]
       - id: la.ciotat
         name: La Ciotat
         icon: { source: material, name: movie } # Les frères Lumière
+        location: { lon: 5.6052, lat: 43.1736 }
         areas: [La Ciotat]
       - id: tallard
         name: Tallard
         icon: { source: material, name: castle } # Château Renaissance
+        location: { lon: 6.057, lat: 44.4636 }
         areas: [Tallard]
 
 - id: antilles.guyane
@@ -182,26 +219,31 @@
       - id: pointe.pitre
         name: Pointe-à-Pitre
         icon: { source: material, name: museum } # Mémorial ACTe
+        location: { lon: -61.5336, lat: 16.241 }
         areas: [Guadeloupe]
         exactCity: Fouillole
       - id: saint.claude
         name: Saint-Claude
         icon: { source: mdi, name: volcano } # La Soufrière
+        location: { lon: -61.6969, lat: 16.0281 }
         areas: [Guadeloupe]
         exactCity: Camp Jacob
       - id: cayenne
         name: Cayenne
         icon: { source: mdi, name: chili-mild } # Piment de Cayenne
+        location: { lon: -52.3351, lat: 4.9382 }
         areas: [Guyane]
         exactCity: Cayenne
       - id: kourou
         name: Kourou
         icon: { source: material, name: rocket_launch } # Centre spatial guyanais
+        location: { lon: -52.6427, lat: 5.1581 }
         areas: [Guyane]
         exactCity: Kourou
       - id: schoelcher
         name: Schœlcher
         icon: { source: material, name: school } # Campus de Schœlcher
+        location: { lon: -61.1013, lat: 14.616 }
         areas: [Martinique]
         exactCity: Schoelcher
 
@@ -211,53 +253,64 @@
       - id: bordeaux
         name: Bordeaux
         icon: { source: material, name: wine_bar } # Le vin bordelais
+        location: { lon: -0.5794, lat: 44.8379 }
         areas: [Bordeaux, Talence, Pessac, Gradignan]
       - id: bayonne
         name: Bayonne
         icon: { source: material, name: sports_rugby } # Aviron Bayonnais
+        location: { lon: -1.4752, lat: 43.4934 }
         areas: [Côte basque]
         exactCities: [Bayonne, Anglet]
       - id: perigueux
         name: Périgueux
         icon: { source: material, name: church } # Cathédrale Saint-Front
+        location: { lon: 0.7157, lat: 45.1838 }
         areas: [Dordogne]
         exactCity: Perigueux
       - id: sarlet.caneda
         name: Sarlat-la-Canéda
         icon: { source: material, name: restaurant } # Capitale du Périgord noir (foie gras, noix, truffes)
+        location: { lon: 1.2171, lat: 44.89 }
         areas: [Dordogne]
         exactCity: Sarlat la Canéda
       - id: dax
         name: Dax
         icon: { source: material, name: hot_tub } # Première ville thermale de France
+        location: { lon: -1.0518, lat: 43.7086 }
         areas: [Landes]
         exactCity: Dax
       - id: libourne
         name: Libourne
         icon: { source: material, name: liquor } # Saint-Émilion, Pomerol (vignoble du Libournais)
+        location: { lon: -0.2453, lat: 44.9144 }
         areas: [Libourne]
       - id: agen
         name: Agen
         icon: { source: material, name: sports_rugby } # SU Agen
+        location: { lon: 0.6164, lat: 44.2031 }
         areas: [Lot et Garonne]
         exactCities: [Agen, Boé]
       - id: marmande
         name: Marmande
         icon: { source: material, name: agriculture } # Tomate de Marmande
+        location: { lon: 0.1664, lat: 44.4992 }
         areas: [Lot et Garonne]
         exactCity: Marmande
       - id: villeneuve.lot
         name: Villeneuve-sur-Lot
         icon: { source: mdi, name: bridge } # Pont des Cieutat
+        location: { lon: 0.706, lat: 44.4103 }
         areas: [Lot et Garonne]
         exactCity: Villeneuve sur Lot
       - id: mont.marsan
         name: Mont-de-Marsan
         icon: { source: material, name: celebration } # Fêtes de la Madeleine / festival Arte Flamenca
+        location: { lon: -0.5009, lat: 43.8908 }
         areas: [Mont de Marsan]
       - id: pau
         name: Pau
         icon: { source: material, name: sports_motorsports } # GP de Pau
+        location: { lon: -0.3708, lat: 43.2948 }
         areas: [Pau]
 
 - id: clermont.ferrand
@@ -266,14 +319,17 @@
       - id: clermont.ferrand
         name: Clermont-Ferrand
         icon: { source: material, name: tire_repair } # Michelin
+        location: { lon: 3.0865, lat: 45.7797 }
         areas: [RDO - Centre-Ville, RCZ - Cezeaux]
       - id: montlucon
         name: Montluçon
         icon: { source: material, name: factory } # Ville industrielle (Dunlop)
+        location: { lon: 2.6066, lat: 46.3399 }
         areas: [RMO - Montlucon]
       - id: aurillac
         name: Aurillac
         icon: { source: material, name: umbrella } # Capitale du parapluie
+        location: { lon: 2.4455, lat: 44.93 }
         areas: [RAU - Aurillac]
 
 - id: corte
@@ -282,6 +338,7 @@
       - id: corte
         name: Corte
         icon: { source: material, name: flag } # Corse
+        location: { lon: 9.1493, lat: 42.3095 }
         areas: [Campus Grimaldi, Campus Mariani]
 
 - id: creteil
@@ -290,55 +347,67 @@
       - id: bobigny
         name: Bobigny
         icon: { source: material, name: gavel } # Procès de Bobigny
+        location: { lon: 2.4451, lat: 48.9061 }
         areas: [Bobigny]
       - id: cachan
         name: Cachan
         icon: { source: material, name: psychology } # ENS Paris-Saclay
+        location: { lon: 2.3341, lat: 48.7946 }
         areas: [Cachan]
       - id: creteil
         name: Créteil
         icon: { source: material, name: water } # Lac de Créteil
+        location: { lon: 2.4531, lat: 48.7778 }
         areas: [Créteil]
       - id: fontainebleau
         name: Fontainebleau
         icon: { source: material, name: hiking } # Forêt
+        location: { lon: 2.7016, lat: 48.4047 }
         areas: [Sud Seine-et-Marne]
         exactCity: Fontainebleau
       - id: kremlin.bicetre
         name: Le Kremlin-Bicêtre
         icon: { source: material, name: local_hospital } # Hôpital de Bicêtre
+        location: { lon: 2.3569, lat: 48.8123 }
         areas: [Seine et Bièvre]
         exactCity: Le Kremlin-Bicêtre
       - id: lieusaint
         name: Lieusaint
         icon: { source: material, name: local_mall } # Carré Sénart
+        location: { lon: 2.5514, lat: 48.6312 }
         areas: [Sénart]
         exactCity: Lieusaint
       - id: marne.la.vallee
         name: Marne-la-Vallée
         icon: { source: material, name: attractions } # Disneyland Paris
+        location: { lon: 2.5986, lat: 48.859 }
         areas: [Champs-sur-Marne, Marne-la-Vallée]
       - id: melun
         name: Melun
         icon: { source: material, name: water_drop } # La Seine
+        location: { lon: 2.6608, lat: 48.5398 }
         areas: [Sud Seine-et-Marne]
         exactCity: Melun
       - id: montreuil
         name: Montreuil
         icon: { source: material, name: videocam } # Studios Méliès (premier studio de cinéma en France)
+        location: { lon: 2.441, lat: 48.8624 }
         areas: [Montreuil]
       - id: saint.denis.creteil
         name: Saint-Denis (Créteil)
         icon: { source: material, name: church } # Nécropole des rois
+        location: { lon: 2.3584, lat: 48.9362 }
         areas: [Saint-Denis]
       - id: villejuif
         name: Villejuif
         icon: { source: material, name: biotech } # Gustave Roussy
+        location: { lon: 2.3631, lat: 48.7919 }
         areas: [Seine et Bièvre]
         exactCity: Villejuif
       - id: villetaneuse
         name: Villetaneuse
         icon: { source: material, name: menu_book } # Université Sorbonne Paris Nord
+        location: { lon: 2.344, lat: 48.9612 }
         areas: [Villetaneuse]
 
 - id: grenoble
@@ -347,40 +416,49 @@
       - id: grenoble
         name: Grenoble
         icon: { source: material, name: downhill_skiing } # Capitale des Alpes
+        location: { lon: 5.7364, lat: 45.1864 }
         areas: [Grenoble, Grenoble centre, Grenoble presqu'île, Saint-Martin-d'Heres]
       - id: valence
         name: Valence
         icon: { source: material, name: waves } # Le Rhône
+        location: { lon: 4.8921, lat: 44.9333 }
         areas: [Valence]
       - id: chambery
         name: Chambéry
         icon: { source: material, name: castle } # Château des ducs de Savoie
+        location: { lon: 5.9207, lat: 45.5665 }
         areas: ["Chambery, Campus Jacob-Bellecombette", Bourget-du-lac]
       - id: annecy
         name: Annecy
         icon: { source: material, name: animation } # Festival du film d'animation
+        location: { lon: 6.1294, lat: 45.8993 }
         areas: [Annecy]
       - id: bourgoin.jallieu
         name: Bourgoin-Jallieu
         icon: { source: material, name: checkroom } # Passé textile
+        location: { lon: 5.2766, lat: 45.5938 }
         areas: [Nord Isère]
       - id: thonon.les.bains
         name: Thonon-les-Bains
         icon: { source: material, name: pool } # Lac Léman
+        location: { lon: 6.4777, lat: 46.3733 }
         areas: [Chablais]
       - id: annonay
         name: Annonay
         icon: { source: material, name: paragliding } # Montgolfière
+        location: { lon: 4.6676, lat: 45.24 }
         areas: [Ardèche]
         exactCity: Annonay
       - id: aubenas
         name: Aubenas
         icon: { source: material, name: kayaking } # Canoë
+        location: { lon: 4.39, lat: 44.6209 }
         areas: [Ardèche]
         exactCity: Aubenas
       - id: privas
         name: Privas
         icon: { source: material, name: eco } # Châtaigne
+        location: { lon: 4.5991, lat: 44.7352 }
         areas: [Ardèche]
         exactCity: Privas
 
@@ -390,6 +468,7 @@
       - id: lille
         name: Lille
         icon: { source: material, name: storefront } # Braderie de Lille
+        location: { lon: 3.071, lat: 50.6304 }
         areas:
             - Lille (Centre)
             - Lille (CHR)
@@ -400,50 +479,62 @@
       - id: valenciennes
         name: Valenciennes
         icon: { source: material, name: brush } # Athènes du Nord
+        location: { lon: 3.5241, lat: 50.3578 }
         areas: [Valenciennes (Centre), Valenciennes (Domaine Universitaire)]
       - id: arras
         name: Arras
         icon: { source: material, name: history_edu } # Robespierre
+        location: { lon: 2.7788, lat: 50.2936 }
         areas: [Arras]
       - id: bethune
         name: Béthune
         icon: { source: material, name: volunteer_activism } # Charitables de Saint-Éloi
+        location: { lon: 2.6386, lat: 50.5307 }
         areas: [Béthune]
       - id: boulogne.mer
         name: Boulogne-sur-Mer
         icon: { source: material, name: phishing } # Premier port de pêche de France
+        location: { lon: 1.6134, lat: 50.7252 }
         areas: [Boulogne sur Mer]
       - id: calais
         name: Calais
         icon: { source: material, name: directions_ferry } # Ville de passage pour la Grande-Bretagne (tunnel sous la Manche et ferries)
+        location: { lon: 1.8546, lat: 50.9526 }
         areas: [Calais]
       - id: cambrai
         name: Cambrai
         icon: { source: material, name: cookie } # Bêtises de Cambrai
+        location: { lon: 3.2349, lat: 50.1762 }
         areas: [Cambrai]
       - id: douai
         name: Douai
         icon: { source: material, name: emoji_people } # Gayant
+        location: { lon: 3.0805, lat: 50.3678 }
         areas: [Douai]
       - id: dunkerque
         name: Dunkerque
         icon: { source: material, name: masks } # Carnaval
+        location: { lon: 2.3764, lat: 51.0377 }
         areas: [Dunkerque]
       - id: lens
         name: Lens
         icon: { source: mdi, name: pickaxe } # Bassin minier
+        location: { lon: 2.8319, lat: 50.4288 }
         areas: [Lens]
       - id: saint.omer
         name: Saint-Omer
         icon: { source: material, name: water } # Marais audomarois
+        location: { lon: 2.2536, lat: 50.7519 }
         areas: [Longuenesse]
       - id: roubaix
         name: Roubaix
         icon: { source: material, name: pedal_bike } # Paris-Roubaix
+        location: { lon: 3.1741, lat: 50.691 }
         areas: [Roubaix]
       - id: tourcoing
         name: Tourcoing
         icon: { source: material, name: checkroom } # Capitale textile
+        location: { lon: 3.161, lat: 50.724 }
         areas: [Tourcoing]
 
 - id: limoges
@@ -452,29 +543,35 @@
       - id: limoges
         name: Limoges
         icon: { source: material, name: coffee } # Porcelaine
+        location: { lon: 1.2605, lat: 45.8263 }
         areas: [Limoges (87)]
       - id: brive
         name: Brive-la-Gaillarde
         icon: { source: material, name: auto_stories } # Foire du livre
+        location: { lon: 1.5341, lat: 45.1595 }
         areas: [Brive (19)]
         exactCity: André DEVAUD
       - id: egletons
         name: Égletons
         icon: { source: material, name: construction } # Formations BTP
+        location: { lon: 2.0464, lat: 45.406 }
         areas: [Egletons (19)]
       - id: gueret
         name: Guéret
         icon: { source: material, name: grass } # Creuse
+        location: { lon: 1.8715, lat: 46.1694 }
         areas: [Brive (19)]
         exactCity: Guéret
       - id: tulle
         name: Tulle
         icon: { source: material, name: music_note } # Accordéon
+        location: { lon: 1.7717, lat: 45.2658 }
         areas: [Brive (19)]
         exactCity: Tulle
       - id: ussel
         name: Ussel
         icon: { source: material, name: park } # Haute-Corrèze
+        location: { lon: 2.3119, lat: 45.5456 }
         areas: [Brive (19)]
         exactCity: Ussel
 
@@ -484,6 +581,7 @@
       - id: lyon
         name: Lyon
         icon: { source: material, name: restaurant } # Tacos
+        location: { lon: 4.835, lat: 45.7676 }
         areas:
             - Lyon 2ème
             - Les Quais - Berges du Rhône
@@ -496,10 +594,12 @@
       - id: saint.etienne
         name: Saint-Étienne
         icon: { source: material, name: design_services } # Ville UNESCO du design
+        location: { lon: 4.3873, lat: 45.4402 }
         areas: [Saint-Etienne]
       - id: roanne
         name: Roanne
         icon: { source: material, name: dinner_dining } # Maison Troisgros
+        location: { lon: 4.0727, lat: 46.0344 }
         areas: [Roanne]
 
 - id: montpellier
@@ -508,22 +608,27 @@
       - id: montpellier
         name: Montpellier
         icon: { source: material, name: medical_services } # Plus ancienne faculté de médecine
+        location:  { lon: 3.8968, lat: 43.5985 }
         areas: [Montpellier]
       - id: beziers
         name: Béziers
         icon: { source: material, name: celebration } # Féria
+        location: { lon: 3.2138, lat: 43.343 }
         areas: [Béziers]
       - id: narbonne
         name: Narbonne
         icon: { source: material, name: hive } # Miel de Narbonne
+        location: { lon: 3.0038, lat: 43.1839 }
         areas: [Narbonne]
       - id: nimes
         name: Nîmes
         icon: { source: material, name: account_balance } # Monuments romains
+        location: { lon: 4.3602, lat: 43.8367 }
         areas: [Nîmes]
       - id: perpignan
         name: Perpignan
         icon: { source: material, name: wb_sunny } # Soleil catalan
+        location: { lon: 2.8947, lat: 42.6994 }
         areas: [Perpignan]
 
 - id: nantes
@@ -532,46 +637,57 @@
       - id: angers
         name: Angers
         icon: { source: material, name: liquor } # Cointreau
+        location: { lon: -0.548, lat: 47.4712 }
         areas: [Angers]
       - id: chateaubriant
         name: Châteaubriant
         icon: { source: material, name: castle } # Le château
+        location: { lon: -1.3761, lat: 47.7209 }
         areas: [Châteaubriant]
       - id: cholet
         name: Cholet
         icon: { source: material, name: sports_basketball } # Cholet Basket
+        location: { lon: -0.8793, lat: 47.0592 }
         areas: [Cholet]
       - id: la.fleche
         name: La Flèche
         icon: { source: material, name: military_tech } # Prytanée national militaire
+        location: { lon: -0.0747, lat: 47.6959 }
         areas: [La Flèche]
       - id: la.roche.sur.yon
         name: La Roche-sur-Yon
         icon: { source: material, name: pentagon } # Plan pentagonal
+        location: { lon: -1.4291, lat: 46.6704 }
         areas: [La Roche-sur-Yon]
       - id: laval
         name: Laval
         icon: { source: material, name: view_in_ar } # Laval Virtual
+        location: { lon: -0.7737, lat: 48.0706 }
         areas: [Laval]
       - id: le.mans
         name: Le Mans
         icon: { source: material, name: speed } # 24 Heures du Mans
+        location: { lon: 0.1974, lat: 48.0075 }
         areas: [Le Mans]
       - id: mayenne
         name: Mayenne
         icon: { source: material, name: water } # Mayenne (rivière)
+        location: { lon: -0.6208, lat: 48.3063 }
         areas: [Mayenne]
       - id: nantes
         name: Nantes
         icon: { source: material, name: precision_manufacturing } # Machines de l'île
+        location: { lon: -1.5545, lat: 47.2184 }
         areas: [Nantes]
       - id: saint-nazaire
         name: Saint-Nazaire
         icon: { source: material, name: directions_boat_filled } # Chantiers navals
+        location: { lon: -2.2139, lat: 47.2733 }
         areas: [Saint-Nazaire]
       - id: saumur
         name: Saumur
         icon: { source: mdi, name: horse } # Cadre noir
+        location: { lon: -0.0756, lat: 47.2601 }
         areas: [Saumur]
 
 - id: nice
@@ -580,27 +696,33 @@
       - id: nice
         name: Nice
         icon: { source: material, name: beach_access } # Promenade des Anglais
+        location: { lon: 7.2714, lat: 43.696 }
         areas: [Nice]
       - id: sophia.antipolis
         name: Sophia-Antipolis
         icon: { source: material, name: memory } # Technopole
+        location: { lon: 7.06786, lat: 43.61619 }
         areas: [Sophia-Antipolis]
       - id: cannes
         name: Cannes
         icon: { source: material, name: emoji_events } # Festival de Cannes
+        location: { lon: 7.0126, lat: 43.5514 }
         areas: [Cannes]
       - id: menton
         name: Menton
         icon: { source: mdi, name: fruit-citrus } # Fête du Citron
+        location: { lon: 7.5029, lat: 43.7757 }
         areas: [Menton]
       - id: toulon
         name: Toulon
         icon: { source: material, name: anchor } # Base navale
+        location: { lon: 5.9325, lat: 43.1204 }
         areas: [Var]
         exactCities: [Toulon, La Garde]
       - id: draguignan
         name: Draguignan
         icon: { source: material, name: landscape } # Gorges du Verdon
+        location: { lon: 6.4632, lat: 43.5381 }
         areas: [Var]
         exactCity: Draguignan
 
@@ -610,18 +732,22 @@
       - id: rouen
         name: Rouen
         icon: { source: material, name: schedule } # Gros-Horloge
+        location: { lon: 1.1, lat: 49.4434 }
         areas: [Rouen, Mont Saint Aignan, Saint Etienne du Rouvray]
       - id: le.havre
         name: Le Havre
         icon: { source: material, name: inventory_2 } # Conteneurs
+        location: { lon: 0.1078, lat: 49.4943 }
         areas: [Le Havre]
       - id: evreux
         name: Évreux
         icon: { source: material, name: alarm } # Tour de l'Horloge
+        location: { lon: 1.1515, lat: 49.027 }
         areas: [Evreux]
       - id: flers
         name: Flers
         icon: { source: material, name: nature } # Bocage normand
+        location: { lon: -0.5758, lat: 48.75 }
         areas: [Flers]
 
 - id: orleans.tours
@@ -630,31 +756,38 @@
       - id: orleans
         name: Orléans
         icon: { source: material, name: shield } # Jeanne d'Arc
+        location: { lon: 1.9093, lat: 47.9028 }
         areas: [Orléans]
       - id: tours
         name: Tours
         icon: { source: material, name: fort } # Châteaux de la Loire
+        location: { lon: 0.6894, lat: 47.3908 }
         areas: [Tours]
       - id: blois
         name: Blois
         icon: { source: material, name: auto_fix_high } # Maison de la Magie Robert-Houdin
+        location: { lon: 1.3371, lat: 47.5886 }
         areas: [Blois]
       - id: bourges
         name: Bourges
         icon: { source: material, name: festival } # Printemps de Bourges
+        location: { lon: 2.3989, lat: 47.0806 }
         areas: [Bourges]
       - id: chartres
         name: Chartres
         icon: { source: material, name: church } # Cathédrale
+        location: { lon: 1.4891, lat: 48.4439 }
         areas: [Chartres]
       - id: chateauroux
         name: Châteauroux
         icon: { source: material, name: flight } # Ancien site Dassault
+        location: { lon: 1.6914, lat: 46.8111 }
         areas: [Châteauroux et Issoudun]
         exactCity: Châteauroux
       - id: issoudun
         name: Issoudun
         icon: { source: material, name: history_edu } # Balzac
+        location: { lon: 1.9887, lat: 46.9477 }
         areas: [Châteauroux et Issoudun]
         exactCity: Issoudun
 
@@ -664,6 +797,7 @@
       - id: paris
         name: Paris
         icon: { source: mdi, name: eiffel-tower } # Tour Eiffel
+        location: { lon: 2.3525, lat: 48.8564 }
         areas:
             - Paris 1
             - Paris 2
@@ -692,6 +826,7 @@
       - id: poitiers
         name: Poitiers
         icon: { source: material, name: theaters } # Futuroscope
+        location: { lon: 0.3412, lat: 46.5801 }
         areas:
             - Poitiers Campus
             - Poitiers Centre Ville
@@ -699,14 +834,17 @@
       - id: angouleme
         name: Angoulême
         icon: { source: material, name: chat_bubble } # Capitale de la BD
+        location: { lon: 0.1561, lat: 45.6485 }
         areas: [Angoulême]
       - id: chatellerault
         name: Châtellerault
         icon: { source: material, name: two_wheeler } # musée Auto Moto Vélo
+        location: { lon: 0.5466, lat: 46.818 }
         areas: [Châtellerault]
       - id: la.rochelle
         name: La Rochelle
         icon: { source: material, name: mic } # Francofolies
+        location: { lon: -1.1513, lat: 46.1596 }
         areas: [La Rochelle]
 
 - id: reims
@@ -715,6 +853,7 @@
       - id: reims
         name: Reims
         icon: { source: mdi, name: glass-flute } # Champagne
+        location: { lon: 4.0315, lat: 49.2583 }
         areas:
             - REIMS - Campus Lettres
             - REIMS - Campus Sciences
@@ -722,14 +861,17 @@
       - id: troyes
         name: Troyes
         icon: { source: material, name: shopping_bag } # Magasins d'Usine
+        location: { lon: 4.074, lat: 48.2977 }
         areas: [TROYES - Campus, TROYES - Centre]
       - id: chalons.en.champagne
         name: Châlons-en-Champagne
         icon: { source: material, name: engineering } # ENSAM (Arts & Métiers)
+        location: { lon: 4.3631, lat: 48.9566 }
         areas: [CHALONS - ENSAM]
       - id: charleville.mezieres
         name: Charleville-Mézières
         icon: { source: material, name: edit_note } # Rimbaud
+        location: { lon: 4.7194, lat: 49.7601 }
         areas: [CHARLEVILLE - Centre, CHARLEVILLE - P.H.T.]
 
 - id: reunion
@@ -738,21 +880,25 @@
       - id: saint.denis.reunion
         name: Saint-Denis (Réunion)
         icon: { source: material, name: sports_tennis } # Roland Garros né
+        location: { lon: 55.4478, lat: -20.8794 }
         areas: [Site nord]
         exactCities: [Saint-Denis, Sainte-Clotilde]
       - id: le.tampon
         name: Le Tampon
         icon: { source: material, name: filter_vintage } # Ville fleurie
+        location: { lon: 55.5153, lat: -21.2782 }
         areas: [Site sud]
         exactCity: Tampon
       - id: saint.pierre
         name: Saint-Pierre
         icon: { source: mdi, name: palm-tree } # front de mer
+        location: { lon: -56.1742, lat: 46.7819 }
         areas: [Site sud]
         exactCities: [Saint Pierre, Saint-Pierre, UFR santé]
       - id: dembeni
         name: Dembéni
         icon: { source: mdi, name: turtle } # tortures marine (Mayotte)
+        location: { lon: 45.1839, lat: -12.8434 }
         areas: [Site Dembeni (Mayotte)]
 
 - id: toulouse
@@ -761,30 +907,37 @@
       - id: toulouse
         name: Toulouse
         icon: { source: material, name: airplanemode_active } # Aviation
+        location: { lon: 1.4442, lat: 43.6046 }
         areas: [Toulouse, Toulouse Crous Truck']
       - id: albi
         name: Albi
         icon: { source: material, name: church } # cathédrale Sainte-Cécile
+        location: { lon: 2.1464, lat: 43.9273 }
         areas: [Albi]
       - id: auch
         name: Auch
         icon: { source: mdi, name: sword-cross } # D'Artagnan
+        location: { lon: 0.5831, lat: 43.6469 }
         areas: [Auch]
       - id: castres
         name: Castres
         icon: { source: material, name: medication } # Pierre Fabre
+        location: { lon: 2.2419, lat: 43.6037 }
         areas: [Castres]
       - id: figeac
         name: Figeac
         icon: { source: material, name: translate } # Champollion
+        location: { lon: 2.0348, lat: 44.61 }
         areas: [Figeac]
       - id: rodez
         name: Rodez
         icon: { source: material, name: contrast } # Pierre Soulages
+        location: { lon: 2.576, lat: 44.3494 }
         areas: [Rodez]
       - id: tarbes
         name: Tarbes
         icon: { source: material, name: filter_hdr } # Pyrénées
+        location: { lon: 0.0781, lat: 43.2331 }
         areas: [Tarbes]
 
 - id: versailles
@@ -793,68 +946,81 @@
       - id: bretigny.sur.orge
         name: Brétigny-sur-Orge
         icon: { source: material, name: radar } # base aérienne 217
+        location: { lon: 2.3061, lat: 48.6114 }
         areas: [Essonne]
         exactCity: Brétigny-sur-Orge
 
       - id: cergy.pontoise
         name: Cergy-Pontoise
         icon: { source: material, name: apartment } # ville nouvelle
+        location: { lon: 2.07805, lat: 49.03894 }
         areas: [Val d'Oise]
         exactCities: [Cergy-Pontoise, Cergy Pontoise, Pontoise]
       - id: evry
         name: Évry
         icon: { source: mdi, name: dna } # Genopole
+        location: { lon: 3.2558, lat: 48.2638 }
         areas: [Essonne]
         exactCities: [Evry, Évry, Evry-Courcouronnes]
       - id: gennevilliers
         name: Gennevilliers
         icon: { source: material, name: local_shipping } # Port fluvial
+        location: { lon: 2.2933, lat: 48.9255 }
         areas: [Val d'Oise]
         exactCity: Gennevilliers
 
       - id: guyancourt
         name: Guyancourt
         icon: { source: material, name: electric_car } # Technocentre Renault
+        location: { lon: 2.0703, lat: 48.7708 }
         areas: [Yvelines]
         exactCity: Guyancourt
       - id: nanterre
         name: Nanterre
         icon: { source: material, name: campaign } # Mai 68, mouvement du 22 mars
+        location: { lon: 2.2072, lat: 48.892 }
         areas: [Hauts-de-Seine]
         exactCity: Nanterre
       - id: paris.saclay
         name: Paris-Saclay
         icon: { source: mdi, name: atom } # CEA Saclay
+        location: { lon: 2.164, lat: 48.6969 }
         areas: [Essonne, Yvelines]
         exactCities: [Orsay, Bures-sur-Yvette, Gif-sur-Yvette, Palaiseau]
 
       - id: saint.cloud
         name: Saint-Cloud
         icon: { source: material, name: park } # Parc de Saint-Cloud
+        location: { lon: 2.2191, lat: 48.8438 }
         areas: [Hauts-de-Seine]
         exactCity: Saint-Cloud
       - id: saint.germain.en.laye
         name: Saint-Germain-en-Laye
         icon: { source: material, name: piano } # Claude Debussy
+        location: { lon: 2.0938, lat: 48.899 }
         areas: [Val d'Oise]
         exactCity: Saint-Germain-en-Laye
       - id: sceaux
         name: Sceaux
         icon: { source: mdi, name: fountain } # Parc de Sceaux
+        location: { lon: 2.2884, lat: 48.7796 }
         areas: [Hauts-de-Seine]
         exactCity: Sceaux
       - id: velizy.villacoublay
         name: Vélizy-Villacoublay
         icon: { source: material, name: shopping_cart } # Vélizy 2
+        location: { lon: 2.1906, lat: 48.7828 }
         areas: [Yvelines]
         exactCities: [Velizy-Villacoublay, Vélizy-Villacoublay]
       - id: versailles
         name: Versailles
         icon: { source: mdi, name: mirror-variant } # Galerie des Glaces
+        location: { lon: 2.1301, lat: 48.8012 }
         areas: [Yvelines]
         exactCity: Versailles
       - id: ville.davray
         name: Ville d'Avray
         icon: { source: material, name: palette } # Corot
+        location: { lon: 2.1895, lat: 48.8284 }
         areas: [Hauts-de-Seine]
         exactCity: Ville d'Avray
