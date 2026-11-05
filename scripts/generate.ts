@@ -97,11 +97,12 @@ export async function generateDart(cities: Array<City>, dist: string): Promise<v
         "",
         "import 'city.dart';",
         "import 'city_icon.dart';",
+        "import 'city_location.dart';",
         "",
         "final List<City> cities = ["
     ];
 
-    for (const { name, id, icon } of cities) {
+    for (const { name, id, icon, location } of cities) {
         let dartIcon: string;
         if (icon.source === "material") {
             dartIcon = `const CityIcon.builtin(icon: Icons.${icon.name})`;
@@ -114,7 +115,7 @@ export async function generateDart(cities: Array<City>, dist: string): Promise<v
             dartIcon = `const CityIcon.svg(name: ${dartString(icon.name)})`;
         }
 
-        lines.push(`  City(${dartString(name)}, ${dartString(id)}, ${dartIcon}),`);
+        lines.push(`    City(${dartString(name)}, ${dartString(id)}, ${dartIcon}, CityLocation(${location.lat}, ${location.lon})),`);
         console.log(`Dart: ${name} ajouté`)
     }
 

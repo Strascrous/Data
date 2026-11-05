@@ -9,6 +9,7 @@ export interface City {
     academy: string;
     name: string;
     icon: CityIcon;
+    location: CityLocation;
     areas: Array<string>;
     exactCity?: string;
     exactCities?: Array<string>;
@@ -17,4 +18,9 @@ export interface City {
 export interface CityIcon {
     source: "mdi" | "material";
     name: string;
+}
+
+export interface CityLocation {
+    lon: number;
+    lat: number;
 }
