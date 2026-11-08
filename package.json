@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@mdi/svg": "^7.4.47",
-    "@types/node": "^24.0.0",
+    "@types/node": "^24.19.2",
     "ajv": "^8.20.0",
     "typescript": "~5.9.3",
     "yaml": "^2.9.1"
