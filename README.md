@@ -1,6 +1,6 @@
 # Strascrous Data
 
-Données des villes partagées entre l’application Flutter et l’API Strascrous. Ce dépôt génère deux bibliothèques depuis un fichier YAML : **`@strascrous/data`** pour TypeScript et **`strascrous_data`** pour Flutter.
+Données des villes partagées entre l’application Flutter et l’API Strascrous. Ce dépôt génère deux bibliothèques : **`@strascrous/data`** pour TypeScript et **`strascrous_data`** pour Flutter.
 
 ## Prérequis
 - Node.js 24+ recommandé
