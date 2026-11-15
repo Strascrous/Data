@@ -61,8 +61,10 @@ async function main(): Promise<void> {
 async function generateTypeScript(cities: Array<City>, dist: string) {
     const dataPath = path.join(dist, "ts", "src", "data.ts");
     let data: Array<CityLib> = cities.map(
-        ({ id, name, academy, areas, exactCities, exactCity }) => ({
-            id, name, academy, areas, exactCities, exactCity
+        ({ id, name, academy, areas, exactCities, exactCity, location }) => ({
+            id, name, academy, areas, exactCities, exactCity,
+            lon: location.lon,
+            lat: location.lat
         })
     )
 
