@@ -1,6 +1,5 @@
-import 'package:strascrous_data/city_location.dart';
-
 import 'city_icon.dart';
+import 'city_location.dart';
 
 class City {
     String name = '';
