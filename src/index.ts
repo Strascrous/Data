@@ -1,13 +1,15 @@
 import { cities } from './data.js';
-export { cities } from './data.js';
 
 export interface City {
-  id: string;
-  name: string;
-  academy: string;
-  areas: Array<string>;
-  exactCity?: string;
-  exactCities?: Array<string>;
+    id: string;
+    name: string;
+    academy: string;
+    areas: Array<string>;
+    exactCity?: string;
+    exactCities?: Array<string>;
+
+    lon: number;
+    lat: number;
 }
 
 export const validAcademies = new Set(cities.map((c) => c.academy));

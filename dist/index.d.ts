@@ -1,5 +1,4 @@
 import { cities } from './data.js';
-export { cities } from './data.js';
 export interface City {
     id: string;
     name: string;
@@ -7,6 +6,8 @@ export interface City {
     areas: Array<string>;
     exactCity?: string;
     exactCities?: Array<string>;
+    lon: number;
+    lat: number;
 }
 export declare const validAcademies: Set<string>;
 export declare const citiesIds: string[];
