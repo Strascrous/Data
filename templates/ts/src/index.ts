@@ -1,4 +1,5 @@
 import { cities } from './data.js';
+export { cities } from './data.js';
 
 export interface City {
     id: string;
